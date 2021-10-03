@@ -43,7 +43,7 @@ Gantt chart task details:
 16) Evaluating the model
 
 below is the updated flow diagram for the project with two approachs as we discussed.
-![image](https://user-images.githubusercontent.com/13017779/135774073-8290eb9c-a1f8-42ee-a5a2-22ff529fc9a2.png)
+![image](https://user-images.githubusercontent.com/13017779/135774248-e6c64368-48f1-4b4a-a28e-1142c4be33a4.png)
 
 
 
