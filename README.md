@@ -28,7 +28,7 @@ Gantt chart task details:
 1) Data collection 
 2) Exploratory Data Analysis
 3) Manally filtering data
-4) Finding similar patterns 
+4) Editing based on similarity 
 5) Refining the data 
 6) Organizing final dataset
 7) Data preprocessing
