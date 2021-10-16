@@ -1,0 +1,7 @@
+#libraries required
+import pandas as pd
+from google.colab import drive
+import numpy as np
+
+#Additional installation required during data collection
+pip install datasets
