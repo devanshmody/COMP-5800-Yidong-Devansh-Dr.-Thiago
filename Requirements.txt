@@ -1,46 +1,103 @@
-#Libraries required
-import pandas as pd
-from google.colab import drive
-import numpy as np
-import datasets
+#Libraries required:
+  
+  import pandas as pd
+  
+  import numpy as np
+  
+  import datavisualization as dv
+  
+  import matplotlib.pyplot as plt
+  
+  import datasets, nltk, re, string, random, time, warnings, sys, spacy, requests, json, urllib3, ast
+  
+  import math, num2words, gensim, demoji,language_tool_python, unicodedata, os
+  
+  from dateutil import parser
+  
+  from emot.emo_unicode import EMOTICONS_EMO
+  
+  from math import sqrt
+  
+  from bs4 import BeautifulSoup
+  
+  from google.colab import drive
+  drive.mount('/content/drive')
 
-import pandas as pd
-import numpy as np 
-import nltk, re, string, random, time, warnings, sys
-sys.path.append('/content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/FeatureExtractionCode')
-import datavisualization as dv
-from nltk.tokenize import word_tokenize
-from collections import Counter, OrderedDict
+  from nltk.tokenize import word_tokenize
+  
+  from collections import Counter, OrderedDict
+  
+  from keras.models import Model
+  
+  from keras.layers import Dense, Embedding, Input
+  
+  from keras.layers import Conv1D, MaxPooling1D, GlobalMaxPool1D, Dropout, concatenate
+  
+  from keras.preprocessing import text as keras_text, sequence as keras_seq
+  
+  from keras.callbacks import EarlyStopping, ModelCheckpoint  
+  
+  from sklearn.model_selection import train_test_split
+  
+  from wordcloud import WordCloud
+  
+  import plotly.express as px
+ 
+  import xml.etree.ElementTree as Xet
 
-#ignore the warnings
-warnings.filterwarnings("ignore")
-from google.colab import drive
-drive.mount('/content/drive')
+  import plotly.figure_factory as ff
+  
+  import contractions
+  
+  import NLPContractions
 
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-from keras.models import Model
-from keras.layers import Dense, Embedding, Input
-from keras.layers import Conv1D, MaxPooling1D, GlobalMaxPool1D, Dropout, concatenate
-from keras.preprocessing import text as keras_text, sequence as keras_seq
-from keras.callbacks import EarlyStopping, ModelCheckpoint
+#Additional installation required during data collection:
+  
+  pip install datasets
+  
+  pip install chart-studio
+  
+  pip install contractions
+  
+  pip install NLPContractions
+  
+  pip install emot
 
-import numpy as np
-import string, time 
-import pandas as pd 
-from keras.models import Model
-from keras.layers import Dense, Input, Embedding
-from keras.layers import Conv1D, MaxPooling1D, GlobalMaxPool1D, Dropout, concatenate
-from keras.preprocessing import text as keras_text, sequence as keras_seq
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-from sklearn.model_selection import train_test_split
-
-
-
-#Additional installation required during data collection
-pip install datasets
-pip install chart-studio
+  pip install demoji
+  
+  pip install language_tool_python
+  
+  pip install num2words
 
 
-#Files to be downloaded 
-gzip -d /content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/EmbeddingFile/numberbatch-19.08.txt.gz
+#Additional files to be downloaded from given links:
+  
+  gzip -d /content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/EmbeddingFile/numberbatch-19.08.txt.gz
+  
+  https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions
+  
+  https://stackoverflow.com/questions/19790188/expanding-english-language-contractions-in-python
+  
+  https://github.com/kootenpv/contractions/tree/master/contractions/data
+  
+  https://7esl.com/contractions-list/
+  
+  https://www.eslbuzz.com/popular-contractions/
+  
+  https://www.netlingo.com/acronyms.php
+  
+  https://grammar.yourdictionary.com/slang/texting-slang.html
+  
+  https://www.noslang.com/dictionary/
+  
+  #punkt for tokenization
+  nltk.download('punkt')
+
+  #load word vectors
+  model = gensim.models.KeyedVectors.load_word2vec_format('/content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/WordVectors/GoogleNews-vectors       negative300.bin', binary=True)
+  model.init_sims(replace=True)
+
+  #import language check
+  tool = language_tool_python.LanguageTool('en-US')
+
+  data set links from where data is downloaded for our project is available in our datacollectioncode.py or ipynb file inside our DataCollectionCode folder
