@@ -1,8 +1,46 @@
-#libraries required
+#Libraries required
 import pandas as pd
 from google.colab import drive
 import numpy as np
 import datasets
 
+import pandas as pd
+import numpy as np 
+import nltk, re, string, random, time, warnings, sys
+sys.path.append('/content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/FeatureExtractionCode')
+import datavisualization as dv
+from nltk.tokenize import word_tokenize
+from collections import Counter, OrderedDict
+
+#ignore the warnings
+warnings.filterwarnings("ignore")
+from google.colab import drive
+drive.mount('/content/drive')
+
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+from keras.models import Model
+from keras.layers import Dense, Embedding, Input
+from keras.layers import Conv1D, MaxPooling1D, GlobalMaxPool1D, Dropout, concatenate
+from keras.preprocessing import text as keras_text, sequence as keras_seq
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+
+import numpy as np
+import string, time 
+import pandas as pd 
+from keras.models import Model
+from keras.layers import Dense, Input, Embedding
+from keras.layers import Conv1D, MaxPooling1D, GlobalMaxPool1D, Dropout, concatenate
+from keras.preprocessing import text as keras_text, sequence as keras_seq
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+from sklearn.model_selection import train_test_split
+
+
+
 #Additional installation required during data collection
 pip install datasets
+pip install chart-studio
+
+
+#Files to be downloaded 
+gzip -d /content/drive/MyDrive/COMP-5800-YDE-Yidong-Devansh-Final-Project/EmbeddingFile/numberbatch-19.08.txt.gz
