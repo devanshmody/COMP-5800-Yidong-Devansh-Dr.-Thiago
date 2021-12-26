@@ -46,3 +46,5 @@ below is the updated flow diagram for the project with two approachs as we discu
  <img width="402" alt="Screen Shot 2021-12-11 at 1 27 09 PM" src="https://user-images.githubusercontent.com/13017779/145687538-de2d77a7-4c76-46a4-a1d2-eedae3ab7409.png">
 
 Working on fine tuning bert and gpt2 models with reduced dimensions
+
+Add on dataset added by augmentation to create a balanced dataset as hate speech words were less compared to non hate speech
