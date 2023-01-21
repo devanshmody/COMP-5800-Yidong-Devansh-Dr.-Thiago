@@ -42,7 +42,7 @@ Final_Y_D_data.csv was used to generate the YD_aug_data_balanced.csv file by dow
 
 The curated dataset is a combination of the following data sources:
 
-* https://huggingface.co/datasets/5roop/FRENK-hate-hr
+* link<https://huggingface.co/datasets/5roop/FRENK-hate-hr>
 * https://huggingface.co/datasets/viewer/?dataset=hatespeech18
 * https://data.mendeley.com/datasets/jf4pzyvnpj/1
 * https://www.chatcoder.com/data.html
