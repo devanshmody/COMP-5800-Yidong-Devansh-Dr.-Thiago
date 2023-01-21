@@ -56,7 +56,7 @@ The curated dataset is a combination of the following data sources:
 * https://github.com/tazeek/BullyDetect
 * https://www.kaggle.com/c/detecting-insults-in-social-commentary/data
 * https://github.com/t-davidson/hate-speech-and-offensive-language
-* https://github.com/HKUST-KnowComp/MLMA hate speech/blob/master/hate speech mlma.zip
+* <a>https://github.com/HKUST-KnowComp/MLMA hate speech/blob/master/hate speech mlma.zip</a>
 * https://www.kaggle.com/vkrahul/twitter-hate-speech
 * https://www.kaggle.com/pandeyakshive97/hate-speech-dataset
 * https://www.kaggle.com/eldrich/hate-speech-offensive-tweets-by-davidson-et-al
