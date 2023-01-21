@@ -42,7 +42,7 @@ Final_Y_D_data.csv was used to generate the YD_aug_data_balanced.csv file by dow
 
 The curated dataset is a combination of the following data sources:
 
-* <a>"https://huggingface.co/datasets/5roop/FRENK-hate-hr"</a>
+* https://huggingface.co/datasets/5roop/FRENK-hate-hr
 * https://huggingface.co/datasets/viewer/?dataset=hatespeech18
 * https://data.mendeley.com/datasets/jf4pzyvnpj/1
 * https://www.chatcoder.com/data.html
@@ -56,7 +56,7 @@ The curated dataset is a combination of the following data sources:
 * https://github.com/tazeek/BullyDetect
 * https://www.kaggle.com/c/detecting-insults-in-social-commentary/data
 * https://github.com/t-davidson/hate-speech-and-offensive-language
-* <a>https://github.com/HKUST-KnowComp/MLMA hate speech/blob/master/hate speech mlma.zip</a>
+* https://github.com/HKUST-KnowComp/MLMA hate speech/blob/master/hate speech mlma.zip
 * https://www.kaggle.com/vkrahul/twitter-hate-speech
 * https://www.kaggle.com/pandeyakshive97/hate-speech-dataset
 * https://www.kaggle.com/eldrich/hate-speech-offensive-tweets-by-davidson-et-al
