@@ -1,8 +1,8 @@
 # COMP-5800-Yidong-Huang and Devansh-Mody
 
-This dataset contains hate speech sentences in English. It has 451709 sentences in total. 371452 of these are hate speech, and 80250 are non-hate speech.
+<p><b>This dataset contains hate speech sentences in English. It has 451709 sentences in total. 371452 of these are hate speech, and 80250 are non-hate speech.</b></p>
 
-The dataset is organized into folders as follows:
+<p><b>The dataset is organized into folders as follows:</b></p>
 
 0_RawData contains data collected from different sources to assemble a dataset of hate speech sentences.
 
@@ -40,7 +40,7 @@ Final_Y_D_data.csv was used to generate the YD_aug_data_balanced.csv file by dow
 10_GabAndRedditComparison contains the training and test files for comparison with the authors from [Jing Qian, Anna Bethke, Yinyin Liu, Elizabeth Belding, and William Yang Wang, "A Benchmark Dataset for Learning to Intervene in Online Hate Speech", arXiv:1909.04251v1 [cs.CL] 10 Sep 2019.].
 
 
-The curated dataset is a combination of the following data sources:
+<p><b>The curated dataset is a combination of the following data sources:</b></p>
 
 * https://huggingface.co/datasets/5roop/FRENK-hate-hr
 * https://huggingface.co/datasets/viewer/?dataset=hatespeech18
@@ -61,7 +61,7 @@ The curated dataset is a combination of the following data sources:
 * https://www.kaggle.com/pandeyakshive97/hate-speech-dataset
 * https://www.kaggle.com/eldrich/hate-speech-offensive-tweets-by-davidson-et-al
 
-The following sources were used for the expansion of contractions found in the text:
+<p><b>The following sources were used for the expansion of contractions found in the text:</b></p>
 
 * https://en.wikipedia.org/wiki/Wikipedia:List\_of\_English\_contractions
 * https://stackoverflow.com/questions/19790188/expanding-english-language-contractions-in-python
