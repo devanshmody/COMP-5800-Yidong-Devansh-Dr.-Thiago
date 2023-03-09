@@ -74,8 +74,7 @@ The following sources were used for the expansion of contractions found in the t
 
 <p><b>Cite this dataset</b></p>
 <p>
-    
-        Mody, Devansh; Huang, YiDong; Alves de Oliveira, Thiago Eustaquio (2022), “A Curated Hate Speech Dataset”, Mendeley Data, V1, doi: 10.17632/9sxpkmm8xn.1
-
-    
+  
+    Mody, Devansh; Huang, YiDong; Alves de Oliveira, Thiago Eustaquio (2022), “A Curated Hate Speech Dataset”, Mendeley Data, V1, doi: 10.17632/9sxpkmm8xn.1
+  
 </p>
