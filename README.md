@@ -1,5 +1,5 @@
 # COMP-5800-Yidong-Huang and Devansh-Mody
-<p>This dataset contains hate speech sentences in English. It has 451709 sentences in total. 371452 of these are hate speech, and 80250 are non-hate speech.</p> 
+This dataset contains hate speech sentences in English. It has 451709 sentences in total. 371452 of these are hate speech, and 80250 are non-hate speech.
 
 The dataset is organized into folders as follows:
 
@@ -73,4 +73,7 @@ The following sources were used for the expansion of contractions found in the t
 * https://www.noslang.com/dictionary/
 
 Cite this dataset
-  Mody, Devansh; Huang, YiDong; Alves de Oliveira, Thiago Eustaquio (2022), “A Curated Hate Speech Dataset”, Mendeley Data, V1, doi: 10.17632/9sxpkmm8xn.1
+  {
+    Mody, Devansh; Huang, YiDong; Alves de Oliveira, Thiago Eustaquio (2022), “A Curated Hate Speech Dataset”, Mendeley Data, V1, doi: 10.17632/9sxpkmm8xn.1
+    
+  }
