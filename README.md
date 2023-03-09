@@ -1,4 +1,5 @@
 # COMP-5800-Yidong-Huang and Devansh-Mody
+
 This dataset contains hate speech sentences in English. It has 451709 sentences in total. 371452 of these are hate speech, and 80250 are non-hate speech.
 
 The dataset is organized into folders as follows:
