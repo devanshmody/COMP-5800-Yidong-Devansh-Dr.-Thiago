@@ -39,7 +39,6 @@ Final_Y_D_data.csv was used to generate the YD_aug_data_balanced.csv file by dow
 
 10_GabAndRedditComparison contains the training and test files for comparison with the authors from [Jing Qian, Anna Bethke, Yinyin Liu, Elizabeth Belding, and William Yang Wang, "A Benchmark Dataset for Learning to Intervene in Online Hate Speech", arXiv:1909.04251v1 [cs.CL] 10 Sep 2019.].
 
-–
 
 The curated dataset is a combination of the following data sources:
 
