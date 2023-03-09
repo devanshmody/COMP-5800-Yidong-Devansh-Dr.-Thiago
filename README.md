@@ -72,9 +72,28 @@ The following sources were used for the expansion of contractions found in the t
 * https://grammar.yourdictionary.com/slang/texting-slang.html
 * https://www.noslang.com/dictionary/
 
-<p><b>Cite this dataset</b></p>
+<p><b>Cite Dataset</b></p>
 <p>
   
     Mody, Devansh; Huang, YiDong; Alves de Oliveira, Thiago Eustaquio (2022), “A Curated Hate Speech Dataset”, Mendeley Data, V1, doi: 10.17632/9sxpkmm8xn.1
   
 </p>
+
+<p><b>Cite Dataset Article</b></p>
+<p>
+  
+    @article{MODY2023108832,
+    title = {A curated dataset for hate speech detection on social media text},
+    journal = {Data in Brief},
+    volume = {46},
+    pages = {108832},
+    year = {2023},
+    issn = {2352-3409},
+    doi = {https://doi.org/10.1016/j.dib.2022.108832},
+    url = {https://www.sciencedirect.com/science/article/pii/S2352340922010356},
+    author = {Devansh Mody and YiDong Huang and Thiago Eustaquio {Alves de Oliveira}},
+    keywords = {Hate speech, Cyberhate, Cyberbullying, Natural language processing, Online Hate},
+    abstract = {Social media platforms have become the most prominent medium for spreading hate speech, primarily through hateful textual content. An extensive dataset containing emoticons, emojis, hashtags, slang, and contractions is required to detect hate speech on social media based on current trends. Therefore, our dataset is curated from various sources like Kaggle, GitHub, and other websites. This dataset contains hate speech sentences in English and is confined into two classes, one representing hateful content and the other representing non-hateful content. It has 451,709 sentences in total. 371,452 of these are hate speech, and 80,250 are non-hate speech. An augmented balanced dataset with 726,120 samples is also generated to create a custom vocabulary of 145,046 words. The total number of contractions considered in the dataset is 6403. The total number of bad words usually used in hateful content is 377. The text in each sentence of the final dataset, which is utilized for training and cross-validation, is limited to 180 words. The generated contractions dataset can be used for any projects in the area of NLP for data preprocessing. The augmented dataset can help to reduce the number of out-of-vocabulary words, and the hate speech dataset can be used as a classifier to detect hate or no hate on social media platforms.}
+    }
+ 
+ </p>
